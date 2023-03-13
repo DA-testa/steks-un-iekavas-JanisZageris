@@ -30,10 +30,10 @@ def find_mismatch(text):
 
 
 def main():
-    text = input()
-    mismatch = find_mismatch(text)
-    print(mismatch)
-
-
-if __name__ == "__main__":
-    main()
+    check_i = input()
+    if "I" in check_i:                                                # Pārbauda vai ir I
+        text = input()
+        mismatch = find_mismatch(text)
+        print(mismatch)
+    
+main()
